@@ -45,4 +45,3 @@ if __name__=='__main__':
         if os.path.isfile(file) and file.split('.')[1] == 'pdf': #file以'.'分開，如果'.'後面是'pdf'就進下一步
             p=Process(target=convertPdf, args=(file,)) #將process放進去
             p.start()
-
