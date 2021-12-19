@@ -61,7 +61,6 @@ for file in os.listdir('.'):
         else:
             NonGuar_30 = int(b[NonGuar_30_locate_add5])
         
-        
 
         items = [[baseName],[Premium],[Guar_10],[NonGuar_10],[Guar_20],[NonGuar_20],[Guar_30],[NonGuar_30]]
         with xlsxwriter.Workbook(excelName) as workbook:
